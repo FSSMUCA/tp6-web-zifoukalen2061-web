@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Calculatrice Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Mini Calculatrice Dynamique</h1>
+</header>
+
+<main>
+
+    <section class="card">
+        <h2>Calculatrice</h2>
+
+        <form id="calc-form">
+            <label>Nombre A :</label>
+            <input type="number" id="a">
+
+            <label>Nombre B :</label>
+            <input type="number" id="b">
+
+            <label>Opération :</label>
+            <select id="operation">
+                <option value="+">Addition (+)</option>
+                <option value="-">Soustraction (-)</option>
+                <option value="*">Multiplication (×)</option>
+                <option value="/">Division (÷)</option>
+            </select>
+
+            <button type="submit">Calculer</button>
+        </form>
+
+        <p id="error" class="error"></p>
+        <p id="resultat" class="result"></p>
+    </section>
+
+    <section class="card">
+        <h2>Historique des opérations</h2>
+        <ul id="historique"></ul>
+    </section>
+
+</main>
+
+<footer>
+    <p>TP6 — Développement Web</p>
+    <a href="info.php">Voir la page PHP</a>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
