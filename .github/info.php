@@ -20,7 +20,7 @@
 <div class="card">
 
 <?php
-$etablissement = "Université XYZ";
+$etablissement = "Université  Cadi Ayyad";
 $module = "Développement Web";
 $annee = 2025;
 
